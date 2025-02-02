@@ -41,3 +41,19 @@ plt.xlabel('X')
 plt.ylabel('y')
 plt.legend()
 plt.show()
+
+
+#*********************************
+
+# Fixed and variable costs
+fixed_cost = 10000
+variable_cost_per_unit = 50
+
+# Function to calculate total cost
+def total_cost(units_produced):
+    return fixed_cost + (variable_cost_per_unit * units_produced)
+
+# Example usage
+units_produced = 100  # Example number of units produced
+cost = total_cost(units_produced)
+print(f"Total cost for producing {units_produced} units is ${cost}")
