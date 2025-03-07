@@ -11,7 +11,7 @@ data = {
     'pranitha': 85,
     'J': 92,
     'Kjc': 88,
-    'Jc': 95
+    'tp': 95
 }
 
 marks_series = pd.Series(data)
